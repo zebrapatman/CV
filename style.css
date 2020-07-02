@@ -1,3 +1,32 @@
 body {
-  font-family: verdana;
+  font-family: Calibri, sans-serif;
   }
+
+h1 {
+    color: rgb(79, 129, 189);
+  }
+
+h2 {
+    color: white;
+    background-color: #4f81bd;
+    text-align: left;
+  }
+
+.personal {
+  color: #4f81bd;
+}
+
+.personal a {
+  color: #4f81bd;
+}
+
+.personal a:hover {
+  color: #0645AD;
+}
+
+.personal h1,h5 {
+  display: inline;
+}
+/* to do:
+<body link="black" vlink="lightgrey">
+*/
