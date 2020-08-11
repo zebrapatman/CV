@@ -8,7 +8,7 @@ body {
   font-family: Calibri, sans-serif;
   }
 
-h1 {
+/*h1 {
     color: rgb(79, 129, 189);
   }
 
@@ -18,6 +18,7 @@ h2 {
     text-align: left;
     padding: 2px;
   }
+*/
 
 .personal {
   color: #4f81bd;
@@ -34,8 +35,25 @@ h2 {
 .personal h1,h5 {
   display: inline;
 }
+
+.personal p {
+  margin: 0.1rem 0rem 0.3rem 0.2rem;
+}
+
+.card-header a:hover {
+  text-decoration: none;
+  font-weight: normal;
+}
+
+
 /* to do:
 <body link="black" vlink="lightgrey">
 door collapse heb ik div class verwijderd, maar kan ik ze als een id gebruiken
 Nog wel volledig bar klikbaar maken
+*/
+
+/* handig om te weten:
+chaning selectors: bvb h1.special: alle h1 tags EN special class hebben
+nested elements: bvb .main-list li: selecteer alle li-elementen die zich in een element met class main-list bevinden
+multiple selectors: bvb h1, .menu: pass de stijl toe op vermelde selectoren
 */
